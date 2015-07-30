@@ -1,0 +1,101 @@
+@charset "utf-8";
+
+body {
+/*     width: 980px; */
+/*     margin: auto; */
+	font-size: 12px;
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+}
+
+header {
+	padding: 5px 5px;
+	margin-bottom: 10px;
+	height: 27px;
+	background-color: #654b24;
+	color: #fff;
+	box-shadow: 0px 2px 2px #ccc;
+}
+
+header>div {
+	margin-left: 5px
+}
+
+header nav {
+	margin-left: 10px;
+}
+
+#logo {
+    font-family: Sans-serif;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px;
+    font-size: 25px;
+    color: #fff !important;
+  	text-decoration: none !important;
+    margin-right: 20px;
+}
+
+#conteudo {
+	margin-top: 35px;
+	padding: 0px 8px
+}
+
+footer {
+	padding: 0px 8px;
+	margin-bottom: 10px
+}
+
+h1 {
+	font-size: 24px;
+	font-weight: 500;
+	padding: 0px;
+	margin: 0px
+}
+
+
+.ui-selectmanycheckbox td {
+	border-width: 0px !important;
+	padding: 0px !important;
+}
+
+.ui-selectmanycheckbox td label {
+	padding-right: 10px;
+}
+
+/* Menu sistema inicio */
+.menu-sistema {
+	border: 0px !important;
+	padding: 0px !important;
+	background: none !important;
+}
+
+.menu-sistema .ui-menu-parent>a .ui-menuitem-text, .menu-sistema>.ui-menu-list>.ui-menuitem>a>.ui-menuitem-text	{
+	color: #ffffff !important;
+}
+
+.menu-sistema .ui-icon-triangle-1-s {
+	background: url(#{ resource [ 'imagens:seta-para-baixo.png' ]})no-repeat;
+
+}
+
+.rotulo {
+	width: 150px;
+	height: 30px ;
+}
+
+/* Menu sistema fim */
+
+.ajax-status {
+	position: fixed;
+	top: 55px;
+	right: 10px;
+	width: 35px;
+	height: 35px
+}
+
+.onemenu-cadastros{
+	width: 250px !important;
+}
