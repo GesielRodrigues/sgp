@@ -8,9 +8,9 @@ import javax.faces.view.ViewScoped;
 import javax.inject.Inject;
 import javax.inject.Named;
 
-import br.com.sgp.os.model.Mecanico;
-import br.com.sgp.os.repository.Mecanicos;
-import br.com.sgp.os.repository.filter.MecanicoFilter;
+import br.com.sgp.os.model.Motorista;
+import br.com.sgp.os.repository.Motoristas;
+import br.com.sgp.os.repository.filter.MotoristaFilter;
 
 @Named
 @ViewScoped
@@ -19,34 +19,30 @@ public class PesquisaMotoristaBean implements Serializable {
 	private static final long serialVersionUID = 1L;
 
 	@Inject
-	private Mecanicos repository;
+	private Motoristas repository;
 
-	private MecanicoFilter filtro;
-	private List<Mecanico> mecanicos;
+	private MotoristaFilter filtro;
+	private List<Motorista> motoristas;
 
 	public PesquisaMotoristaBean() {
 		limpar();
 	}
 
 	private void limpar() {
-		this.filtro = new MecanicoFilter();
-		this.mecanicos = new ArrayList<>();
-	}
-
-	public MecanicoFilter getFiltro() {
-		return filtro;
-	}
-
-	public void setFiltro(MecanicoFilter filtro) {
-		this.filtro = filtro;
-	}
-
-	public List<Mecanico> getMecanicos() {
-		return mecanicos;
+		this.filtro = new MotoristaFilter();
+		this.motoristas = new ArrayList<>();
 	}
 
 	public void pesquisar() {
-		this.mecanicos = this.repository.filtrados(filtro);
+		this.motoristas = this.repository.filtrados(filtro);
+	}
+
+	public MotoristaFilter getFiltro() {
+		return filtro;
+	}
+
+	public List<Motorista> getMotoristas() {
+		return motoristas;
 	}
 
 }
