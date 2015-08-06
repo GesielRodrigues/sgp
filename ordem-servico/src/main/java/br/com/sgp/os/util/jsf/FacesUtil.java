@@ -1,4 +1,4 @@
-package br.com.pedreirascontagem.util.jsf;
+package br.com.sgp.os.util.jsf;
 
 import javax.faces.application.FacesMessage;
 import javax.faces.context.FacesContext;

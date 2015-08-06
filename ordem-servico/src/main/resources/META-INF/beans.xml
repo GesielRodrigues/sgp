@@ -5,6 +5,6 @@
 	version="1.1" bean-discovery-mode="all">
 
 	<interceptors>
-		<class>br.com.pedreirascontagem.util.jpa.TransactionInterceptor</class>
+		<class>br.com.sgp.os.util.jpa.TransactionInterceptor</class>
 	</interceptors>
 </beans>

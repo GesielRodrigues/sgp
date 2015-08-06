@@ -1,4 +1,4 @@
-package br.com.pedreirascontagem.util.jpa;
+package br.com.sgp.os.util.jpa;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

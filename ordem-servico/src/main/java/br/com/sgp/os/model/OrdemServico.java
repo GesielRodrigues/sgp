@@ -1,4 +1,4 @@
-package br.com.pedreirascontagem.model;
+package br.com.sgp.os.model;
 
 import java.io.Serializable;
 import java.util.Date;

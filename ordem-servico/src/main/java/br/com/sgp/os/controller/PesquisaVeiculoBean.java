@@ -1,4 +1,4 @@
-package br.com.pedreirascontagem.controller;
+package br.com.sgp.os.controller;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -8,9 +8,9 @@ import javax.faces.view.ViewScoped;
 import javax.inject.Inject;
 import javax.inject.Named;
 
-import br.com.pedreirascontagem.model.Veiculo;
-import br.com.pedreirascontagem.repository.Veiculos;
-import br.com.pedreirascontagem.repository.filter.VeiculoFilter;
+import br.com.sgp.os.model.Veiculo;
+import br.com.sgp.os.repository.Veiculos;
+import br.com.sgp.os.repository.filter.VeiculoFilter;
 
 @Named
 @ViewScoped

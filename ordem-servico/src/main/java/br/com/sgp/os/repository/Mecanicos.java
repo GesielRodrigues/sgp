@@ -1,4 +1,4 @@
-package br.com.pedreirascontagem.repository;
+package br.com.sgp.os.repository;
 
 import java.io.Serializable;
 import java.util.List;
@@ -13,9 +13,9 @@ import org.hibernate.criterion.MatchMode;
 import org.hibernate.criterion.Order;
 import org.hibernate.criterion.Restrictions;
 
-import br.com.pedreirascontagem.model.Mecanico;
-import br.com.pedreirascontagem.repository.filter.MecanicoFilter;
-import br.com.pedreirascontagem.util.jpa.Transactional;
+import br.com.sgp.os.model.Mecanico;
+import br.com.sgp.os.repository.filter.MecanicoFilter;
+import br.com.sgp.os.util.jpa.Transactional;
 
 public class Mecanicos implements Serializable {
 

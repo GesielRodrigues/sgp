@@ -14,7 +14,7 @@ import br.com.sgp.os.repository.filter.MecanicoFilter;
 
 @Named
 @ViewScoped
-public class PesquisaMecanicoBean implements Serializable {
+public class PesquisaMotoristaBean implements Serializable {
 
 	private static final long serialVersionUID = 1L;
 
@@ -24,7 +24,7 @@ public class PesquisaMecanicoBean implements Serializable {
 	private MecanicoFilter filtro;
 	private List<Mecanico> mecanicos;
 
-	public PesquisaMecanicoBean() {
+	public PesquisaMotoristaBean() {
 		limpar();
 	}
 

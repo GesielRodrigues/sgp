@@ -1,4 +1,4 @@
-package br.com.pedreirascontagem.repository.filter;
+package br.com.sgp.os.repository.filter;
 
 import java.io.Serializable;
 

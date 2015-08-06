@@ -1,4 +1,4 @@
-package br.com.pedreirascontagem.controller;
+package br.com.sgp.os.controller;
 
 import java.io.Serializable;
 
@@ -6,9 +6,9 @@ import javax.faces.view.ViewScoped;
 import javax.inject.Inject;
 import javax.inject.Named;
 
-import br.com.pedreirascontagem.model.Mecanico;
-import br.com.pedreirascontagem.repository.Mecanicos;
-import br.com.pedreirascontagem.util.jsf.FacesUtil;
+import br.com.sgp.os.model.Mecanico;
+import br.com.sgp.os.repository.Mecanicos;
+import br.com.sgp.os.util.jsf.FacesUtil;
 
 @Named
 @ViewScoped

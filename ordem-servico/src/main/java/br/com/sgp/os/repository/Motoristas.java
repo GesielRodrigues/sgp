@@ -1,12 +1,12 @@
-package br.com.pedreirascontagem.repository;
+package br.com.sgp.os.repository;
 
 import java.io.Serializable;
 
 import javax.inject.Inject;
 import javax.persistence.EntityManager;
 
-import br.com.pedreirascontagem.model.Motorista;
-import br.com.pedreirascontagem.util.jpa.Transactional;
+import br.com.sgp.os.model.Motorista;
+import br.com.sgp.os.util.jpa.Transactional;
 
 public class Motoristas implements Serializable{
 
